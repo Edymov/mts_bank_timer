@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+// Миксины, переменные, хелперы и т.д.
+@import "./globals/mixins";
+
+// Импорт основных стилей
+@import "./globals/base";
+@import "./globals/reset";
+
