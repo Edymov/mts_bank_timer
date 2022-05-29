@@ -1,9 +1,6 @@
-export const getRandomArrayElement = <T>(arr: Array<T>) => {
-    return arr[Math.floor(Math.random() * arr.length)]
-}
+export const getRandomArrayElement = <T>(arr: Array<T>) => arr[Math.floor(Math.random() * arr.length)]
 
-export const slugify = (text: string) => {
-    return text
+export const slugify = (text: string) => text
         .toString()
         .toLowerCase()
         .replace(/\s+/g, '-')
@@ -11,7 +8,6 @@ export const slugify = (text: string) => {
         .replace(/--+/g, '-')
         .replace(/^-+/, '')
         .replace(/-+$/, '')
-}
 
 export const getFunName = (): string => {
     const adjectives = [
